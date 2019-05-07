@@ -1,0 +1,15 @@
+﻿///////////////////// Serveur //////////////////////
+
+______________________________________________________________
+
+Instructions pour lancer le serveur:
+
+
+1. Entrer la commande "npm install" dans le terminal à la racine du dossier serveur (...\log3900-20\Remise\Serveur)
+
+2. Entrer la commande "npm start" dans le même terminal.
+
+3. Le serveur est opérationnel lorsque "Download finish" s'affiche dans la console.
+
+
+

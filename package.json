@@ -1,0 +1,41 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "Serveur du projet PolyPaint Pro",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "dev": "tsc && concurrently --kill-others \"tsc -w\" \"nodemon dist/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint": "tslint -c tslint.json -p tsconfig.json --force -t verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githost.gi.polymtl.ca/git/log3900-20"
+  },
+  "author": "Louis-Philippe Chouinard, Deyvid Dimitrov, Nicolas Hudon, Eric Marchi, Olivier St-Onge, Alexandre Vu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.11.0",
+    "@types/mongoose": "^5.0.2",
+    "@types/socket.io": "^1.4.31",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jimp": "^0.2.28",
+    "merge-images": "^1.1.0",
+    "mongoose": "^5.0.5",
+    "mongoose-field-encryption": "^1.0.1",
+    "socket.io": "^2.0.4"
+  }
+}
